@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 
-  #signup form
+  #show signup form
   def new
   end
 
