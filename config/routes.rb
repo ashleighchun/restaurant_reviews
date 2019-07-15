@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :restaurants
   resources :electronics
   root 'sessions#home'
   get '/signup' => 'users#new'
